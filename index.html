@@ -18,31 +18,31 @@
         </nav>
     </header>
 
-    <section>
-        <div>
-            <h3>Should We get Started?</h3>
-            <p>fill it this form and I'll will get to you if you have any questions.</p>
+    <section class="hero">
+        <div class="hero-form">
+            <h3 class="hero-form-h3">Should We get Started?</h3>
+            <p class="hero-form-p">Fill it this form and I'll will get to you if you have any questions.</p>
         <form>
-            <label for="name">Enter Your Name: </label>
-            <input type="text" placeholder="Your name" name="name" id="name" />
-            <label for="E-mail">Enter Your E-mail: </label>
-            <input type="email" placeholder="your@e-mail.com" name="E-mail" id="e-mail" />
-            <label for="phone"> Enter your cellphone number: </label>
-            <input type="tel" placeholder="(123) 456-7890" name="Phone" id="phone" />
-            <p>
+            <label for="name" class="hero-form-label">Enter Your Name: </label>
+            <input type="text" placeholder="Your name" name="name" id="name" class="form-input" />
+            <label for="E-mail" class="hero-form-label">Enter Your E-mail: </label>
+            <input type="email" placeholder="your@e-mail.com" name="E-mail" id="e-mail" class="form-input"/>
+            <label for="phone" class="hero-form-label"> Enter your cellphone number: </label>
+            <input type="tel" placeholder="(123) 456-7890" name="Phone" id="phone" class="form-input"/>
+            <p class="hero-form-p">
                 Have you met me before?
                 <input type="radio" name="met-before" id="met-yes" />
-                <label for="met-yes">Yes</label>
-                <input type="radio" name="met-before" id="met-no" />
-                <label for="met-no">No</label>
+                <label for="met-yes" class="hero-form-label">Yes</label>
+                <input type="radio" name="met-before" id="met-no" /> 
+                <label for="met-no" class="hero-form-label">No</label>
             </p>
-            <p>
-                <label for="checkbox">
+            <p class="hero-form-p">
+                <label for="checkbox" class="hero-form-label">
                 I acknowledge that I am at least 18 years of age
                 </label>
                 <input type="checkbox" name="age-confirm" id="checkbox" />
             </p>
-            <button type="submit">
+            <button type="submit" class="hero-form-button">
                 Submit
             </button>
         </form>    
