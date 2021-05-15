@@ -114,3 +114,22 @@ footer a {
     padding: 10px 20px;
     font-size: 16px;
 }
+
+.About {
+    text-align: center;
+}
+
+.Abouth2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-top: 3px solid #fce138;
+    display: inline-block;
+}
+.AboutP {
+    line-height: 1.7;
+    color: #fce138;
+    width: 80%;
+    font-size: 20px;
+}
